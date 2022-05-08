@@ -1,0 +1,1 @@
+Private Sub Worksheet_Change(ByVal Target As Range) If Target.Count > 1 Then Exit Sub Select Case Target.Address(False, False) Case "A1" Range("A2").Select Case "A2" Range("A3").Select Case "A3" Range("B1").Select Case "B1" Range("B2").Select Case "B2" Range("B3").Select Case "B3" Range("A1").Select End Select End Sub
